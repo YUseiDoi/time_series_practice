@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  reserch-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'time_series_practice'
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    stdin_open: true
+    tty: true
+    volumes:
+      - /home/yuseidoi/reserch/time_series_practice/src/:/app

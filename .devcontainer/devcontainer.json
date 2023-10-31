@@ -1,0 +1,4 @@
+"name": " time_series_practice",
+"dockerComposeFile": "../docker-compose.yml",
+"service": "reserch-project",
+"workspaceFolder": "/app"
